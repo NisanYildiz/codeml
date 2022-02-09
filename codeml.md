@@ -140,5 +140,7 @@ Likelihood değerlerinin istatistiksel olarak anlamlı olup olmadığını test 
 χ 2 = 2×(Model1_loglikelihood + model2_loglikelihood)
 
 Significance level
+
 DF  0.9950 0.9750 0.9000 0.5000 0.1000 0.05000 0.0100 0.0010
+
 1 0  .0000 0.0010 0.0158 0.4549 2.7055 3.8415  6.6349 10.8276
