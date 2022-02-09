@@ -122,3 +122,17 @@ controlfile=/mnt/NEOGENE1/home/${username}/codeml/codeml-M1278.ctl
 $codeml $controlfile
 
 ```
+
+### Sonuçların yorumlandırılması
+
+Yürüdükten sonra paml bize çeşitli output dosyaları veriyor. 
+
+Bu doslayarda control dosyasında verdiğimiz out dosyası log likelihood değerlerini içeriyor. 
+
+Yürüttüğümüz farklı modellerin değerleri için
+
+```bash
+grep lnL mlc-M1278
+```
+
+χ 2 = 2×(Model1_loglikelihood + model2_loglikelihood)
