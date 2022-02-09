@@ -137,7 +137,7 @@ grep lnL mlc-M1278
 
 Likelihood değerlerinin istatistiksel olarak anlamlı olup olmadığını test etmek için de χ 2 dağılımına karşı kontrol etmek gerekiyor. 
 
-χ 2 = 2×(Model1_loglikelihood + model2_loglikelihood)
+χ 2 = 2×(Model1_loglikelihood - model2_loglikelihood)
 
 Significance level
 
