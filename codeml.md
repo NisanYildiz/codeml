@@ -116,12 +116,11 @@ NEOGENE üzerinde PAML bonobo, chimp ve macaque sunucularında yüklü.
 #SBATCH -o slurm-%j-%N-%u.out
 #SBATCH -e slurm-%J-%N-%u.err
 
-username=yourNEOGENEusername
 codeml=/usr/local/sw/paml4.9e/bin/codeml
-controlfile=/mnt/NEOGENE1/home/${username}/codeml/codeml-M1278.ctl
+controlDir=/mnt/NEOGENE1/home/${username}/codeml
+controlfile=${controlDir}/codeml-M1278.ctl
 
 $codeml $controlfile
-
 ```
 
 ### Sonuçların yorumlandırılması
